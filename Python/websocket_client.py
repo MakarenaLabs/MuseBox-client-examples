@@ -9,7 +9,6 @@ async def test():
         message = {
         "topic": "GenderDetection",
         "clientId": "1",
-        #"publisherQueue": "tcp://*:5556"
         }
 
         image = cv2.imread("test.jpg")
