@@ -22,7 +22,7 @@ cd Cpp
 ./client topic image|txt_file [image2]
 ```
 
-## Getting Started 
+## MuseBox Python client 
 
 There are three different python examples featuring both ZeroMQ and Websocket clients. You can simply run them as follows:
 
