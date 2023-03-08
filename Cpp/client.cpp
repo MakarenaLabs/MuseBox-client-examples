@@ -73,7 +73,7 @@ int main(int argc, char *argv[])
   // Check topic
   std::vector<std::string> valid_topics{"FaceDetection", "FaceRecognition", "FaceLandmark", "AgeDetection", "GenderDetection", "GlassesDetection", "EmotionRecognition",
                                         "TextDetection", "LogoDetection", "LogoRecognition", "PeopleDetection", "ObjectDetection", "MonoDepth", "MonoDepth2", "MedicalDetection", "MedicalSegmentation",
-                                        "HumanSegmentation", "ImagePortrait", "StochasticDifference", "ZeroCrossingRate", "SignalEnergy", "EnergyEntropy", "FFT", "STFT", "Monoaudio2Midi"};
+                                        "HumanSegmentation", "ImagePortrait", "StochasticDifference", "ZeroCrossingRate", "SignalEnergy", "FFT", "STFT", "Monoaudio2Midi"};
   // For face recognition the database is located on /usr/local/bin/database/people
   // For logo recognition the database is located on /usr/local/bin/database/logos
 
