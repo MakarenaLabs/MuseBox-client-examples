@@ -3,7 +3,7 @@
 
 - [MuseBox C++ client](#cpp)
 - [MuseBox Python Client](#python)
-
+- [NoCodeGUI-DecodedMediaStreams with Python](#nocodegui)
 
 ## Prerequisites
 
@@ -11,6 +11,7 @@ In order to run the clients, you should firstly install:
 - ZeroMQ (cpp and python)
 - OpenCV (cpp and python)
 - Websockets (python)
+- flask-cors (No Code GUI - python)
 
 ## MuseBox C++ client 
 
@@ -32,6 +33,14 @@ python3 musebox_client.py
 # websocket client
 python3 websocket_client.py
 ```
+
+## NoCodeGUI-DecodedMediaStreams with Python
+
+If you want to stream using your webcam (either on your pc or FPGA board), we have created a Flask app. Run as follows:
+```
+python3 -m flask run --host=0.0.0.0
+```
+Meanwhile on the NoCodeGUI, you should add the "Decoded Media Streams" from MuseBox input's list and put the correct address, for example "http://192.168.188.77:5000/video_feed".
 
 ## MuseBox documentation
 
